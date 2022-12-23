@@ -13,6 +13,7 @@ extern double (*fl[FNLEN])(double);
 extern char dn[FNLEN][5];
 extern double (*dl[FNLEN])(double); 
 
+
 extern char un[USRLST][5];
 extern node ul[USRLST][sizeof(node)];
 

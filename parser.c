@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -17,7 +18,7 @@ static node *intnd (char *f, int len, struct node *par) {
     np->l = NULL;
     np->r = NULL;
     np->p = par;
-    np->fs = 0;
+    np->fs = 0; 
     np->size = 0;
     return np;
 }
@@ -98,7 +99,7 @@ static void part(int **n, int len, char *s, struct node *np) {
     int fix = ffix(l, len, s, n);
     int imin = l[0]; int min = l[1]; 
     int bmin = l[2]; int cmin = l[3];
-    if (fix) {;
+    if (fix) {
         s += fix;
         len -= 2 * fix;
         s[len] = '\0';

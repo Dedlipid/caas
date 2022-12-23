@@ -51,6 +51,5 @@ double evl(node *np, double x) {
 int main(){
     node *np = mp("sin(-x)^2/cos(x)^2");
     printf("%g\n", evl(np, 3.141595/4));
-    
 }
 #endif

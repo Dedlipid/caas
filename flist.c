@@ -9,7 +9,6 @@ double (*fl[FNLEN])(double) = {exp, cos, log,sin};
 
 char dn[FNLEN][5] = {"exp", "-sin","1/" ,"cos"};
 
-
 #ifndef FLIST_H
 int main() {
     return 0;
